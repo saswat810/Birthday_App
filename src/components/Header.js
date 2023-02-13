@@ -9,7 +9,7 @@ const Header = () => {
         <Container style={{width: "auto"}}>
           <LinkContainer to='/'>
             <Navbar.Brand>Happy 24th Birthday</Navbar.Brand>
-          </LinkContainer>         
+          </LinkContainer>       
         </Container>
       </Navbar>
     </header>

@@ -1,20 +1,22 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
-import Product from '../components/Product'
-import products from '../products'
+import './homeScreen.css'
+import { Link } from 'react-router-dom'
 
 const HomeScreen = () => {
   return (
-    <>
-      <h1>Wishes for you</h1>
-      <Row>
-        {products.map((product) => (
-          <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
-            <Product product={product} />
-          </Col>
-        ))}
-      </Row>
-    </>
+  //   <div>
+  //   <header>Happy</header>
+  //   <div className="cupcake" />
+  //   <header>Birthday!</header>
+  // </div>
+   <div className="centering" >
+{/* <h1>Happy</h1> */}   
+    <Link to={`/wishes`}>
+    <div className="cupcake" rel="tooltip" title="Click on me to see your birthday wishes" />
+      </Link>
+     {/* <h1>Birthday!</h1> */}
+ </div>
+  
   )
 }
 
