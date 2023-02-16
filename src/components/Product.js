@@ -42,9 +42,9 @@ const Product = ({ product }) => {
             value={product.rating}
             text={`${product.numReviews} reviews`}
           />
-        </Card.Text>
+        </Card.Text>*/}
 
-        <Card.Text as='h3'>${product.price}</Card.Text> */}
+        <Card.Text as='h6' className="float-right">{product.from}</Card.Text> 
       </Card.Body>
     </Card>
   )
