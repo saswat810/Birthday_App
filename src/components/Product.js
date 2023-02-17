@@ -1,54 +1,35 @@
-// import React from "react";
-// import { Card } from "react-bootstrap";
-
-// const Product = ({ product }) => {
-//   return (
-//     <Card className="my-3 p-3 rounded">
-//       <Card.Img src={product.image} variant="top" />
-//       <Card.Body>
-//         <Card.Title as="div">
-//           <strong>{product.description}</strong>
-//         </Card.Title>
-//       </Card.Body>
-//     </Card>
-//   );
-// };
-
-// export default Product;
-
-import React from 'react'
-// import { Link } from 'react-router-dom'
-import { Card } from 'react-bootstrap'
-// import Rating from './Rating'
+import React, { useState } from "react";
+import ReactCardFlip from "react-card-flip";
+import { Card } from "react-bootstrap";
 
 const Product = ({ product }) => {
+  const [flip, setFlip] = useState(false);
   return (
-    <Card className='my-3 p-3 rounded'>
-      <Card.Img src={product.image} variant='top' />
-      {/* <Link to={`/product/${product._id}`}>
-        
-      </Link> */}
-
-      <Card.Body>
-      <Card.Text as='div'>
+    <ReactCardFlip isFlipped={flip}   >
+      <Card className="my-3 p-3 rounded">
+        <Card.Body onClick={() => setFlip(!flip)}>
+          <Card.Text as="h12">click here to see wishes from</Card.Text>
+          <Card.Text as="h5" className="float-right" style={{color:"#55595c"}}>
+            <br/>
+            {product.from}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card className="my-3 p-3 rounded" onClick={() => setFlip(!flip)}>
+        <Card.Img src={product.image} variant="top" />
+        <Card.Body>
+          <Card.Text as="h12">
             <strong>{product.description}</strong>
           </Card.Text>
-        {/* <Link to={`/product/${product._id}`}>
-         
-        </Link> */}
+          <Card.Text as="h6" className="float-right" style={{color:"#55595c"}}>
+          <br/>
+          <br/>
+            {product.from}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </ReactCardFlip>
+  );
+};
 
-        {/* <Card.Text as='div'>
-          <Rating
-            value={product.rating}
-            text={`${product.numReviews} reviews`}
-          />
-        </Card.Text>*/}
-
-        <Card.Text as='h6' className="float-right">{product.from}</Card.Text> 
-      </Card.Body>
-    </Card>
-  )
-}
-
-export default Product
-
+export default Product;

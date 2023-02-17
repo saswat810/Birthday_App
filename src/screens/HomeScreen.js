@@ -43,7 +43,7 @@ function HomeScreen() {
     setTimeout(function () {
       thirdCanvas.setAttribute("style", "display:none");
       fourthCanvas.setAttribute("style", "display:block");
-    }, 18000);
+    }, 17000);
   }, []);
 
 
