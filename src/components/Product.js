@@ -16,14 +16,12 @@ const Product = ({ product }) => {
         </Card.Body>
       </Card>
       <Card className="my-3 p-3 rounded" onClick={() => setFlip(!flip)}>
-        <Card.Img src={product.image} variant="top" />
+        <Card.Img src={product.image} variant="top" style={{height:"50%"}}/>
         <Card.Body>
-          <Card.Text as="h12">
-            <strong>{product.description}</strong>
+          <Card.Text as="p" style={{fontSize:"large"}}>
+           {product.description}
           </Card.Text>
-          <Card.Text as="h6" className="float-right" style={{color:"#55595c"}}>
-          <br/>
-          <br/>
+          <Card.Text as="h8" className="float-right" style={{color:"#55595c"}}>
             {product.from}
           </Card.Text>
         </Card.Body>

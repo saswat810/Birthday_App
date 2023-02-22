@@ -664,7 +664,7 @@ body, html{
 	animation-delay: 2.5s;
 }
 
-.third--canvas .center--line h1{
+.third--canvas .center--line h2{
 	position: absolute;
 	width:auto;
 	height:auto;
@@ -677,62 +677,62 @@ body, html{
 	font-size:5em;
 }
 
-.third--canvas .center--line h1 > span{
+.third--canvas .center--line h2 > span{
 	position: relative;
 	top:2em;
 	opacity: 0;
 	animation:thirdCanvasLastText 100ms ease 3s 1 forwards;
 }
 
-.third--canvas .center--line h1 > span:nth-child(1){
+.third--canvas .center--line h2 > span:nth-child(1){
 	animation-delay: 3s;
 }
 
-.third--canvas .center--line h1 > span:nth-child(2){
+.third--canvas .center--line h2 > span:nth-child(2){
 	animation-delay: 3100ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(3){
+.third--canvas .center--line h2 > span:nth-child(3){
 	animation-delay: 3200ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(4){
+.third--canvas .center--line h2 > span:nth-child(4){
 	animation-delay: 3300ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(5){
+.third--canvas .center--line h2 > span:nth-child(5){
 	animation-delay: 3400ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(6){
+.third--canvas .center--line h2 > span:nth-child(6){
 	animation-delay: 3500ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(7){
+.third--canvas .center--line h2 > span:nth-child(7){
 	animation-delay: 3600ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(8){
+.third--canvas .center--line h2 > span:nth-child(8){
 	animation-delay: 3700ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(9){
+.third--canvas .center--line h2 > span:nth-child(9){
 	animation-delay: 3800ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(10){
+.third--canvas .center--line h2 > span:nth-child(10){
 	animation-delay: 3900ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(11){
+.third--canvas .center--line h2 > span:nth-child(11){
 	animation-delay: 4000ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(12){
+.third--canvas .center--line h2 > span:nth-child(12){
 	animation-delay: 4100ms;
 }
 
-.third--canvas .center--line h1 > span:nth-child(13){
+.third--canvas .center--line h2 > span:nth-child(13){
 	animation-delay: 4200ms;
 }
 

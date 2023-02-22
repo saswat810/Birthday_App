@@ -88,7 +88,7 @@ function HomeScreen() {
           <div className="center--line">
             <img src={Balloons} id="bl--right" alt="" />
             <img src={Balloons} id="bl--left" alt="" />
-            <h1>
+            <h2>
               <span>h</span>
               <span>a</span>
               <span>p</span>
@@ -103,7 +103,7 @@ function HomeScreen() {
               <span>d</span>
               <span>a</span>
               <span>y</span>
-            </h1>
+            </h2>
           </div>
 
           <img src={Gift} alt="" id="gf1" />
@@ -116,7 +116,7 @@ function HomeScreen() {
       <div className="centering" > 
     <Link to={`/wishes`}>
     <div className="cupcake" rel="tooltip" title="Click on me to see your birthday wishes" />
-    <div style={{textDecoration: "none"}}>Click on the cupcake to see your birthday wishes</div>
+    <div style={{textDecoration: "none", marginLeft: "12%"}}>Click on the cupcake to see your birthday wishes</div>
       </Link>
  </div>
         </div>
