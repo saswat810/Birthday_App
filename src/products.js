@@ -48,7 +48,7 @@ const products = [
   {
     _id: '8',
     image: '/images/kiran.jpg',
-    description: "Don't get weirded out about growing older. Our age is actually the number of years the earth has been enjoying us. Live in the moment and enjoy celebrating life every way possible. Happy Birthday to the special one in my life. Happy happy Birthday cutie.",
+    description: "There is never a day that I will not think of you. I am captivated by your love. I love you, and I hope you have a wonderful birthday. Happy Birthday cuite.",
     from:"---Kiran"
 
   },
