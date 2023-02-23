@@ -47,37 +47,38 @@ const products = [
   },
   {
     _id: '8',
+    image: '/images/kiran.jpg',
+    description: "Don't get weirded out about growing older. Our age is actually the number of years the earth has been enjoying us. Live in the moment and enjoy celebrating life every way possible. Happy Birthday to the special one in my life. Happy happy Birthday cutie.",
+    from:"---Kiran"
+
+  },
+  {
+    _id: '9',
     image: '/images/lalli.jpg',
     description: "Happy b'day chinni🥰, Wishing you a special day filled with moments 🥳, mainly a tasty 😋 Cake and  cheers to another year ahead from -Your baby💙❤️",
     from:"---Lalli"
 
   },
   {
-    _id: '9',
+    _id: '10',
     image: '/images/swathi.jpg',
     description:"Happy birthday sahithi ❤️. I will remember u🥰. When i saw our pictures i  recollecting moments we spent together and those are the most  beautiful memories i had with u😎. Thanks for giving me such memories in my life 😇. U gave me a bond # friend 😍. U gave a family🥰. U Support me too 💪🏻 all the time😊. Love u 😘and miss u 🙂.Will meet u soon 🤗",
     from:"---Swathi"
   },
   {
-    _id: '10',
+    _id: '11',
     image: '/images/keerthana.jpg',
     description:'Thank you for always being a friend I can count on... Happy Birthday, Munchkin!!!',
     from:"---Keerthana"
 
   },
   {
-    _id: '11',
+    _id: '12',
     image: '/images/dimple.jpg',
     description:"Hello sahithiiii...although we don't speak often these days, you are that one buddy who never misses my vibe and makes me feel special, though we haven't spoken in a long time. Thank you for being whenever I needed you..!!🖤.without you, I can't even imagine doing my Btech labs ... Love you always for drawing the sinewaves to my mismatched cos waves and keeping us together ❤️. A very happy happy birthday to you 418 from your 420..!! 😘",
     from:"---Dimple"
   },
-  {
-    _id: '12',
-    image: '/images/kiran.jpg',
-    description: "Don't get weirded out about growing older. Our age is actually the number of years the earth has been enjoying us. Live in the moment and enjoy celebrating life every way possible. Happy Birthday to the special one in my life. Happy happy Birthday cutie.",
-    from:"---Kiran"
-
-  },
+  
   {
     _id: '13',
     image: '/images/deepak.jpg',
