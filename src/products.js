@@ -27,15 +27,15 @@ const products = [
   },
   {
     _id: '5',
-    image: '/images/img_5.jpg',
-    description:'Our age is merely the number of years the world has been enjoying us! ',
+    image: '/images/ali.jpg',
+    description:"Happy Birthday ra Sahithi 🥰. Warmest wishes to you on your very special day, I'm so grateful for your friendship, you are the sweetest person i know💕, Thankyou for being a wonderful friend,  Hope all your wishes come true! Hyderabadi me bole to Janam din Mubarakhh patthhee!!🤪. Happy Birthday dabbbaa🤭. cheers to your big day!",
     from:"---Ali"
 
   },
   {
     _id: '6',
-    image: '/images/img_6.jpg',
-    description:'Happy birthday to someone who is forever young!',
+    image: '/images/ramya.jpg',
+    description:"Hey Planner,Finding someone with same craziness is priceless. I hit the jackpot when I found you 🤗. It’s been just a few months we met, but feels like an eternity. Cheers to all the fun times and looking forward to create more precious memories together ❤️. I’m so freaking happy to have you in my life 🥰. I may not say it often, but I love you and wish you nothing but happiness today and always 💛. Happy birthday, to the biggest kid I know. With Love, ",
     from:"---Ramya"
   },
   {
@@ -55,7 +55,7 @@ const products = [
   {
     _id: '9',
     image: '/images/swathi.jpg',
-    description:'I hope your celebration gives you many happy memories!',
+    description:"Happy birthday sahithi ❤️. I will remember u🥰. When i saw our pictures i  recollecting moments we spent together and those are the most  beautiful memories i had with u😎. Thanks for giving me such memories in my life 😇. U gave me a bond # friend 😍. U gave a family🥰. U Support me too 💪🏻 all the time😊. Love u 😘and miss u 🙂.Will meet u soon 🤗",
     from:"---Swathi"
   },
   {
@@ -80,7 +80,7 @@ const products = [
   },
   {
     _id: '13',
-    image: '/images/img_2.jpg',
+    image: '/images/deepak.jpg',
     description:"Happy birthday my dear lovely sister❤️ No matter what ILY😘 Talks with u make me happy Sharing things with u gives me relief.I want you to be there (always)sis…. And finally you are an idiot😏",
     from:"---Deepak"
   },
@@ -93,8 +93,8 @@ const products = [
   },
   {
     _id: '15',
-    image: '/images/img_4.jpg',
-    description:'I hope your celebration gives you many happy memories!',
+    image: '/images/saswath.jpg',
+    description:'Hey frnduuu, First of all Happy 24th birthday my dear friend❤️.  You are the most wonderful thing that had happened to me till now😍. The friendship we had is invincible. You are not only a friend, you are like a family to me Always and Forever🥰. Thanks for being with me in all my hard times. Once again many more happy returns of the day 🥳.',
     from:"---Saswath"
   }
  
