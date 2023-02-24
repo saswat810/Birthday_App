@@ -35,7 +35,7 @@ const products = [
   {
     _id: '6',
     image: '/images/ramya.jpg',
-    description:"Hey Planner,Finding someone with same craziness is priceless. I hit the jackpot when I found you 🤗. It’s been just a few months we met, but feels like an eternity. Cheers to all the fun times and looking forward to create more precious memories together ❤️. I’m so freaking happy to have you in my life 🥰. I may not say it often, but I love you and wish you nothing but happiness today and always 💛. Happy birthday, to the biggest kid I know. With Love, ",
+    description:"Hey Planner,Finding someone with same craziness is priceless. I hit the jackpot when I found you 🤗. It’s been just a few months we met, but feels like an eternity. Cheers to all the fun times and looking forward to create more precious memories together ❤️. I’m so freaking happy to have you in my life 🥰. I may not say it often, but I love you and wish you nothing but happiness today and always 💛. Happy birthday, to the biggest kid I know. With Love ",
     from:"---Ramya"
   },
   {
@@ -94,6 +94,13 @@ const products = [
   },
   {
     _id: '15',
+    image: '/images/shannu.jpg',
+    description:"Happy Birthday to my utterly and absolutely irreplaceable best friend.",
+    from:"---Shannu"
+
+  },
+  {
+    _id: '16',
     image: '/images/saswath.jpg',
     description:'Hey frnduuu, First of all Happy 24th birthday my dear friend❤️.  You are the most wonderful thing that had happened to me till now😍. The friendship we had is invincible. You are not only a friend, you are like a family to me Always and Forever🥰. Thanks for being with me in all my hard times. Once again many more happy returns of the day 🥳.',
     from:"---Saswath"
