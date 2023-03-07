@@ -6,8 +6,6 @@ import Balloons from "../images/balloons.png";
 import { Link } from "react-router-dom";
 // import {Helmet} from "react-helmet";
 import React, { useEffect } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 function HomeScreen() {
   useEffect(() => {
     let firstSlideContainer = document.getElementsByClassName("slide--content")[0];
@@ -51,9 +49,6 @@ function HomeScreen() {
 
   return (
     <>
-     <Header />
-    <>
-
       {/* welcome to react App */}
       <div className="first--slide">
         <div className="slide--content">
@@ -125,10 +120,7 @@ function HomeScreen() {
       </Link>
  </div>
         </div>
-
     </>
-
-            <Footer/></>
   );
 }
 

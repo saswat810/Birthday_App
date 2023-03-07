@@ -4,17 +4,13 @@ import { Row, Col} from 'react-bootstrap'
 import products from '../products'
 
 import Product from '../components/Product'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 
 const ProductScreen = ({ match }) => {
  // const product = products.find((p) => p._id === match.params.id)
 
   return (
     <>
-     <Header />
-    <>
-      <Link className='btn btn-light my-3' to='/home'>
+      <Link className='btn btn-light my-3' to='/'>
         Go Back
       </Link>
       <h1>Wishes for you</h1>
@@ -25,10 +21,7 @@ const ProductScreen = ({ match }) => {
           </Col>
         ))}
       </Row>
-
-      </>
-
-<Footer/></>
+    </>
   )
 }
 
